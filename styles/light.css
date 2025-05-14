@@ -39,12 +39,12 @@
     --h3-section-title-color: #353430;
   }
 
-  .page {
+  .theme-auto .page {
     background-color: var(--background-color);
     background-image: none;
   }
 
-  .header__decoration-rec {
+  .theme-auto .header__decoration-rec {
     display: none;
   }
 }
