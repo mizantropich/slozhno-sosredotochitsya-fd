@@ -28,15 +28,15 @@
 @media (prefers-color-scheme: light) {
   :root.theme-auto {
     --background-color: #fff1f7;
-  --accent-color: #ff8dcb;
-  --button-color: #353430;
-  --button-color-rgb: 53, 52, 48;
-  --header-corners-color: #353430;
-  --article-text-color: #353430;
-  --title-decor-color: #353430;
-  --h1-header-title-color: #f1b2ce;
-  --h2-footer-title-color: #f1b2ce;
-  --h3-section-title-color: #353430;
+    --accent-color: #ff8dcb;
+    --button-color: #353430;
+    --button-color-rgb: 53, 52, 48;
+    --header-corners-color: #353430;
+    --article-text-color: #353430;
+    --title-decor-color: #353430;
+    --h1-header-title-color: #f1b2ce;
+    --h2-footer-title-color: #f1b2ce;
+    --h3-section-title-color: #353430;
   }
 
   .theme-auto .page {
