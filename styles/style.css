@@ -3,7 +3,7 @@
 .page {
   min-height: 100%;
   font-family: var(--page-font), sans-serif;
-  background-image: url("./../images/cover-image-dark.png");
+  background-image: url(../images/cover-image-dark.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
