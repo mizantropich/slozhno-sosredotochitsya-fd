@@ -1,1 +1,0 @@
-https://github.com/mizantropich/slozhno-sosredotochitsya-fd
