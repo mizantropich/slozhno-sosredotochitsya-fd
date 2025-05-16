@@ -21,4 +21,6 @@
   --h1-header-title-color: #db00ff;
   --h2-footer-title-color: #db00ff;
   --h3-section-title-color: #ff0070;
+	--page-background-image: url(../images/cover-image-dark.png);
+	--rec-dislpay: block;
 }

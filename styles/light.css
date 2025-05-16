@@ -15,40 +15,23 @@
   --h1-header-title-color: #ffc2e6;
   --h2-footer-title-color: #ffc2e6;
   --h3-section-title-color: #353430;
+	--page-background-image: url(../images/cover-image-light.png);
+	--rec-display: none;
 }
-
-.theme-light .page {
-  background-image: none;
-}
-
-.theme-light .header__decoration-rec {
-  display: none;
-}
-
-/*Ниже мое решение проблемы с исчезающим фоном и REC при prefers-color-scheme: light и включенной темой Неон.
-Но есть проблема - оно прекрасно работает у меня на лайв сервере, но в автотестах новые селекторы в медиафиче
-просто игнорируются, и тест не проходит, будто авто тема вообще не работает. Я долго ломал голову себе и другим людям,
-но так и не нашел причины этого...*/
 
 @media (prefers-color-scheme: light) {
-  :root.theme-auto {
-    --background-color: #fff1f7;
-    --accent-color: #ff8dcb;
-    --button-color: #353430;
-    --button-color-rgb: 53, 52, 48;
-    --header-corners-color: #353430;
-    --article-text-color: #353430;
-    --title-decor-color: #353430;
-    --h1-header-title-color: #f1b2ce;
-    --h2-footer-title-color: #f1b2ce;
-    --h3-section-title-color: #353430;
-  }
-
-	.theme-auto .page {
-    background-image: none;
-  }
-
-  .theme-auto .header__decoration-rec {
-    display: none;
+  :root {
+  --background-color: #fff1f7;
+  --accent-color: #ff8dcb;
+  --button-color: #353430;
+  --button-color-rgb: 53, 52, 48;
+  --header-corners-color: #353430;
+  --article-text-color: #353430;
+  --title-decor-color: #353430;
+  --h1-header-title-color: #ffc2e6;
+  --h2-footer-title-color: #ffc2e6;
+  --h3-section-title-color: #353430;
+	--page-background-image: url(../images/cover-image-light.png);
+	--rec-display: none;
   }
 }
